@@ -14,6 +14,7 @@ author: ttonsing
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+Sial Simthu:"sialsimthu"
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
