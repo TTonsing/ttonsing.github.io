@@ -1,4 +1,5 @@
 ---
+layout: post
 title:Local Train
 theme: default
 ---
