@@ -21,7 +21,7 @@ navbar-links:
     - Learn markdown: "https://www.markdowntutorial.com/"
   #Author's home: "https://deanattali.com"
   Author's home: "http://mungboimedia.ezyro.com/wordpress/mungboi-media-thumalbu/"
-  SialSimthu:"post/sialsimthu.md"
+  sialsimthu: "post/sialsimthu.md"
 
 # --- Logo --- #
 
