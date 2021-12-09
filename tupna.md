@@ -1,5 +1,5 @@
 ---
-layout:page
+layout: page
 title: Tupna & Ngimna
 subtitle: Excerpt from Soulshaping Sial Simthu by TTonsing
 cover-img: assets/img/path.jpg
