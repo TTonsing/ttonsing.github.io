@@ -1,5 +1,5 @@
 ---
-layout: page
+layout:page
 title: Sial Simthu
 subtitle: Excerpt from Soulshaping by TTonsing
 cover-img: /assets/img/path.jpg
