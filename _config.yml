@@ -23,9 +23,9 @@ navbar-links:
   Author's home: "http://mungboimedia.ezyro.com/wordpress/mungboi-media-thumalbu/"
   #sial simthu: "_posts/2021-12-01-sialsimthu"
   sial simthu: 
-  - Hoihlou:"sialsimthu"
-  - Tupna:"tupna"
-  - Deihna:"deihna"
+    - Hoihlou:"sialsimthu"
+    - Tupna:"tupna"
+    - Deihna:"deihna"
 
 # --- Logo --- #
 
