@@ -8,6 +8,10 @@ share-img: assets/img/path.jpg
 tags: [keimah, Sial Simthu]
 date: 2021-12-09
 ---
+***
+
 *Tupna Omleh Lampi Om*  
 I tupte mualsuahna ding in  
-Lampi i zong hi.
+Lampi i zong hi.  
+
+***
