@@ -8,7 +8,10 @@ share-img: assets/img/path.jpg
 tags: [keimah, Sial Simthu]
 date: 2021-12-09
 ---
-(setq markdown-css-paths '("http://mydomain.com/style.css"))
+(setq markdown-css-paths '("https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"))
+(setq markdown-css-paths '("https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"))
+(setq markdown-css-paths '("https://code.jquery.com/jquery-3.5.1.js"))
+(setq markdown-css-paths '("https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"))
 
 <h1>Datatables Markdown Demo</h1>
 
