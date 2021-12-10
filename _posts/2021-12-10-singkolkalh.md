@@ -1,6 +1,6 @@
 ---
 layout: post
-title: singkokalh
+title: Singkokalh
 subtitle: Excerpt from Soulshaping Keimah Sial Simthu
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
