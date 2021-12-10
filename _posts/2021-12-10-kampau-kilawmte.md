@@ -8,9 +8,10 @@ share-img: /assets/img/path.jpg
 date: 2021-12-10
 tags: [kampau, kamdam, kamsiam]
 ---
-Khanglui lamte ahih uh leh Active Voice, first person lam a pau sang in Passive leh anonymous lam ah na pau nuam zaw uh ba sa hang. 
-Huai mah tuh pau hoih piching pau leh pau kilawm suak zaw hi. A deuhkhol in naupang kam ah shih leh Active leh First person a suah khiat ngeina ahi hi.
-Tulai mite'n leng hiai khanglui lamte paudan passive form of speech pen zalbawl thak ni in, i kampau bawlpha leng chih a ut mahmah hi hang. 
+Khanglui lamte ahih ua leh Active Voice, first person lam a pau sang in Passive leh anonymous lam ah na pau nuam zaw uh bang in kilang sa hang. 
+Huai mah tuh pau hoih piching pau leh pau kilawm suak zaw hi. A deuhkhol in naupang kam ah ahihleh Active leh First person a suah khiat ngeina ahi hi.
+Tulai mite'n leng hiai khanglui lamte paudan passive form of speech pen zalbawl thak ni in, i kampau bawlpha leng chih a ut mahmah hi hang.
+
 ***
 ET:
 1. Nopchi *ka* sa e.
