@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dingdiang ..
+title: Dingdiang .... ...
 subtitle: Excerpt from Soulshaping Keimah Sial Simthu
 cover-img: assets/img/path.jpg
 thumbnail-img: assets/img/thumb.png
