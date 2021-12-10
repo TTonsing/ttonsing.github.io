@@ -29,7 +29,7 @@ navbar-links:
         #subfolderitems:
     - Dingdiang: "dingdiang"
     - Thumal: "thumal-bu"
-    - Markdown DTable: "markdown-table"
+    #- Markdown DTable: "markdown-table"
     - DataTables: "dataTables-demo"
 
 # --- Logo --- #
