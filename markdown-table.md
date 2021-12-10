@@ -19,12 +19,12 @@ date: 2021-12-09
 Steps:
 
 1. Add datatables CSS
-   - [https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css](https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css)
+    [https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css](https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css)
 1. Add any custom CSS, like font-family
 1. Add jQuery JS
-   - [https://code.jquery.com/jquery-3.5.1.js](https://code.jquery.com/jquery-3.5.1.js)
+    [https://code.jquery.com/jquery-3.5.1.js](https://code.jquery.com/jquery-3.5.1.js)
 1. Add jQuery datatable JS
-   - [https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js](https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js)
+    [https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js](https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js)
 1. Add table (HTML, or Markdown with pre-processor). No special class is needed, you just need to reference your table next.
 1. Add JS snippet to run jQuery DataTable setup your table.
 
