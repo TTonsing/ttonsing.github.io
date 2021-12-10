@@ -26,8 +26,8 @@ navbar-links:
     - Hoihlou: "sialsimthu"
     - Tupna: "tupna"
     - Deihna: "deihna"
-        subfolderitems:
-            - Dingdiang: "dingdiang"
+        #subfolderitems:
+    - Dingdiang: "dingdiang"
 
 # --- Logo --- #
 
