@@ -10,13 +10,13 @@ date:2021-12-10
 --- 
 **SINGKOKALH**  
 
-***
+#***
 Singkhros - Singkokalh  
 Singlamteh - Singkokalh 
 
 Singkokalh kichi ana gendan masa uh kitheihmohbawl sim chiat hi hang.  
 
-***
+#***
 
 Kokalh - Cross  
 
