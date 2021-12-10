@@ -28,9 +28,9 @@ navbar-links:
     - Deihna: "deihna"
         #subfolderitems:
     - Dingdiang: "dingdiang"
-    - Thumal: "thumal-bu"
-    #- Markdown DTable: "markdown-table"
-    - DataTables: "dataTables-demo"
+    # - Thumal: "thumal-bu"
+    # - Markdown DTable: "markdown-table"
+    - Thumal: "dataTables-demo"
 
 # --- Logo --- #
 
