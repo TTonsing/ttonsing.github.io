@@ -7,7 +7,7 @@ thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [singkhros, singkokalh]
 date:2021-12-10
----  
+--- 
 **SINGKOKALH**  
 
 ***
