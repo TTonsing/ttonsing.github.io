@@ -8,7 +8,7 @@ share-img: assets/img/path.jpg
 tags: [keimah, Sial Simthu]
 date: 2021-12-09
 ---
-
+(setq markdown-css-paths '("http://mydomain.com/style.css"))
 
 <h1>Datatables Markdown Demo</h1>
 
@@ -47,7 +47,9 @@ You datatable will be generated. It will include an entries limit (default 10), 
 // Must reference the table inside the div, not the div itself,
 // as the div is not a table and you'll get an error from jQuery.
 //
-// If you had an HTML table and not a markdown one, you could setup <table id="my-table"> and reference with $("#my-table").
+// If you had an HTML table and not a markdown one, you could setup <table id="my-table"> and reference with $("#my-table").  
+  <script>
 $(document).ready(function () {
   $("#my-table > table").DataTable();
 });
+  </script>
