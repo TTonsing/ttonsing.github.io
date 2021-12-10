@@ -7,6 +7,11 @@ thumbnail-img: assets/img/thumb.png
 share-img: assets/img/path.jpg
 tags: [keimah, Sial Simthu]
 date: 2021-12-09
+customjs:
+ - https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css
+ - https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css
+ - https://code.jquery.com/jquery-3.5.1.js
+ - https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js
 ---
 (setq markdown-css-paths '("https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"))
 (setq markdown-css-paths '("https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css"))
