@@ -26741,6 +26741,7 @@
   
   </script><script  src="./script.js"></script>
 <script>
+	/*
 $(document).ready(function () {
   $("#my-table > table").DataTable({
      "columnDefs": [
@@ -26751,7 +26752,16 @@ $(document).ready(function () {
          column: 0
       }      
   });
-});
+});*/
+	
+	$(document).ready(function(){
+   var table = $('#my-table > table').DataTable({
+      dom: 'Alfrtip',
+      alphabetSearch: {
+         column: 0
+      }      
+   });
+	
 </script>
 </body>
 </html>
