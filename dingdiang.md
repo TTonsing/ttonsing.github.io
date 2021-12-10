@@ -8,6 +8,7 @@ share-img: assets/img/path.jpg
 tags: [keimah, sial simthu]
 date: 2021-12-10
 ---
+***
 **Dingdiang:** (adj. )
 - something which is feeble  
   --1. zawi    
@@ -22,4 +23,4 @@ date: 2021-12-10
   --3. kiplou   
   --4. Tawm Tawm, zuan zuan
   --5. Taileh hehu
-
+***
