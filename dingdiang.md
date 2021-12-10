@@ -9,6 +9,7 @@ tags: [keimah, sial simthu]
 date: 2021-12-10
 ---
 ***
+
 **Dingdiang:** (adj. )
 - something which is feeble  
   --1. zawi    
@@ -16,12 +17,12 @@ date: 2021-12-10
   --3. zang   
   --4. Kikhai dingdiang  
   
-**Diangdiang:** (adj. )
+**Diangdiang:** (adj., v )
 - something which is late, slow & feeble  
   --1. zekai    
   --2. khonung   
   --3. kiplou   
-  --4. Tawm Tawm, zuan zuan  
-  --5. Taileh hehu  
+  --4. Tawm Tawm, zuan zuan (v)    
+  --5. Taileh hehu (v)   
   
 ***
