@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Datatables markdown demo</title>
+  <link rel='stylesheet' href='https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>Datatables Markdown Demo</h1>
+<p>
+  Based on <a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_tables.html#jquery-datatables">tutorial</a> for Jekyll.
+</p>
+<p>Steps:</p>
+<ol>
+<li>Add datatables CSS
+<ul>
+<li><a href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css</a></li>
+</ul>
+</li>
+<li>Add any custom CSS, like font-family</li>
+<li>Add jQuery JS
+<ul>
+<li><a href="https://code.jquery.com/jquery-3.5.1.js">https://code.jquery.com/jquery-3.5.1.js</a></li>
+</ul>
+</li>
+<li>Add jQuery datatable JS
+<ul>
+<li><a href="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js">https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js</a></li>
+</ul>
+</li>
+<li>Add table (HTML, or Markdown with pre-processor). No special class is needed, you just need to reference your table next.</li>
+<li>Add JS snippet to run jQuery DataTable setup your table.</li>
+</ol>
+<p>You datatable will be generated. It will include an entries limit (default 10), a search bar, sorting and pagination.</p>
+<br>
+<div id="my-table">
+<!-- The pre-processor for this pen is set to Markdown   -->
+<table>
+<thead>
+<tr>
+<th>Food</th>
+<th>Description</th>
+<th>Category</th>
+<th>Sample type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apples</td>
+<td>A small, somewhat round ...</td>
+<td>Fruit</td>
+<td>Fuji</td>
+</tr>
+<tr>
+<td>Bananas</td>
+<td>A long and curved, often-yellow ...</td>
+<td>Fruit</td>
+<td>Snow</td>
+</tr>
+<tr>
+<td>Kiwis</td>
+<td>A small, hairy-skinned sweet ...</td>
+<td>Fruit</td>
+<td>Golden</td>
+</tr>
+<tr>
+<td>Oranges</td>
+<td>A spherical, orange-colored sweet ...</td>
+<td>Fruit</td>
+<td>Navel</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
+<script src='https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js'></script><script  src="./script.js"></script>
+<script>
+$(document).ready(function () {
+  $("#my-table > table").DataTable();
+});
+</script>
+</body>
+</html>
