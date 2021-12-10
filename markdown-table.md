@@ -50,7 +50,7 @@ You datatable will be generated. It will include an entries limit (default 10), 
 | Bananas | A long and curved, often-yellow ...   | Fruit    | Snow        |
 | Kiwis   | A small, hairy-skinned sweet ...      | Fruit    | Golden      |
 | Oranges | A spherical, orange-colored sweet ... | Fruit    | Navel       |
-
+{: .display}
 </div>
 // Must reference the table inside the div, not the div itself,
 // as the div is not a table and you'll get an error from jQuery.
