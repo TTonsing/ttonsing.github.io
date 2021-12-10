@@ -15,7 +15,7 @@ date: 2021-12-10
   --3. zang   
   --4. Kikhai dingdiang  
   
-  **Diangdiang:** (adj. )
+**Diangdiang:** (adj. )
 - something which is late, slow & feeble  
   --1. zekai    
   --2. khonung   
