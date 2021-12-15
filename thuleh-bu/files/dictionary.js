@@ -19,7 +19,8 @@ function render_results(search_term, results) {
 function lookup(search_term) {
 	 var results = {};
 	 search_term = search_term.trim();
-	 var pattern = new RegExp('^' + search_term + '$', 'i');
+	 //var pattern = new RegExp('^' + search_term + '$', 'i');
+	var pattern = new RegExp('^' + search_term + '*', 'i');
 	 pattern.compile(pattern);
 	 for(var word in dictionary) {
 		  if(pattern.test(word)) {
