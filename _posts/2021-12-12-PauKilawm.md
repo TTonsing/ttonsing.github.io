@@ -5,7 +5,7 @@ subtitle: Excerpt from Soulshaping Keimah Sial Simthu
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.jpg
 share-img: /assets/img/path.jpg
-tags: [ keimah, sial simthu, pau ginalou, pau thulimlou, pautungtham]
+tags: [keimah, sial simthu, pau ginalou, pau thulimlou, pautungtham]
 date: 2021-12-12
 ---
 
