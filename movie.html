@@ -1,0 +1,50 @@
+<html>
+<head>
+
+<!--link rel='stylesheet' type='text/css' src='bootstrap-3.3.7-dist/css/bootstrap.min.css'></link-->
+<!--script type='text/javascript' src='DataTables-1.11.3/jquery-3.6.0.min.js'></script-->
+  <script type='text/javascript' src='https://code.jquery.com/jquery-3.5.1.js'></script>
+<script type='text/javascript' src='bootstrap-3.3.7-dist/js/bootstrap.min.js'></script>
+
+<!--link type='text/css' src='DataTables-1.11.3/css/dataTables.bootstrap.min.css'></link-->
+<link type='text/css' src='https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css'></script>
+<script type='text/javascript' src='https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js'></script>
+<!--script type='text/javascript' src='///DataTables-1.11.3/js/dataTables.bootstrap.min.js'></script-->
+
+</head>
+<body><div class="container">
+<table id="example" class="table table-striped  table-bordered" style="width:100%">
+       <!--table id="example" class="display" style="width:100%"-->
+        <thead>
+            <tr class="text-ceter">
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    <!--/table-->
+    </table></div>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $('#example').DataTable( {
+        /*"ajax": '../ajax/data/arrays.txt' */
+		//"ajax": 'ajax/data/arrays.txt'
+		"ajax": 'movie1.txt'
+    } );
+} );
+</script>
+</body>
+</html>
