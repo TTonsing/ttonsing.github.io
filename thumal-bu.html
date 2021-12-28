@@ -51,7 +51,7 @@
     </table>
 	<script type="text/javascript" class="init">
 	$(document).ready(function() {
-    $('#example').DataTable( {
+   tbl= $('#example').DataTable( {
         /*"ajax": '../ajax/data/arrays.txt' */
 		//"ajax": 'ajax/data/arrays.txt'
 		"ajax": 'thumalbu-array.txt',
@@ -69,7 +69,7 @@
      smart: false 
   }
     } );
-		 
+	tbl.fnFilter("^" + filter_value + "*");	 
 } );
 </script>
   
