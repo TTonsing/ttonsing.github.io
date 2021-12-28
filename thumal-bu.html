@@ -50,8 +50,14 @@
     <!--/table-->
     </table>
 	<script type="text/javascript" class="init">
-	$(document).ready(function() {
-   tbl= $('#example').DataTable( {
+	$(document).ready(function() { 
+// Setup - add a text input to each footer cell 
+$('#example tfoot th').each( function () { 
+var title = $('#example thead th').eq( $(this).index() ).text(); 
+$(this).html( '<input type="text" placeholder="Search '+title+'" />' ); } ); 
+// DataTable 
+var table = $('#example').DataTable(
+	{
         /*"ajax": '../ajax/data/arrays.txt' */
 		//"ajax": 'ajax/data/arrays.txt'
 		"ajax": 'thumalbu-array.txt',
@@ -68,11 +74,17 @@
      regex: true,
      smart: false 
   } 
-    } );
-	//tbl.fnFilter("^" + filter_value + "*");	
-		tbl.search("^" + filter_value + "$");	
+    }
+
+); 
+// Apply the search 
+table.columns().eq( 0 ).each( function ( colIdx ) { 
+$( 'input', table.column( colIdx ).footer() ).on( 'keyup change', function () { 
+table .column( colIdx ) .search( this.value ) .draw(); 
+} ); 
+} ); 
 } );
-</script>
+	</script>
   
   <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
 <script src='https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js'>
