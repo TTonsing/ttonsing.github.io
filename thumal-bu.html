@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Datatables markdown demo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--link rel="stylesheet" href="https\\://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css'>
+  <link rel='stylesheet' href='https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap.min.css'>
+  <link rel='stylesheet' href='###https://gyrocode.github.io/jquery-datatables-alphabetSearch/1.2.7/css/dataTables.alphabetSearch.css'>
+  
+  <link rel="stylesheet" href="./style.css">
+
+	
+</head>
+<body><div class="container">
+<!-- partial:index.partial.html -->
+  <h1><a href="/" class="text-center">Back Home</a></h1>
+<h1>Thumal Bu</h1>
+  <table id="example" class="table table-striped  table-bordered table-hover" style="width:100%">
+       <!--table id="example" class="display compact" style="width:100%"-->
+        <thead>
+            <tr class="text-center">
+                <th>Word</th>
+                <th>Word Type</th>
+                <th>English</th>
+                <th>Paite</th>
+            </tr>
+        </thead>
+	<tbody>
+		<tr class="text-center">
+		<!--td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			-->
+			</tr>
+	</tbody>
+        <tfoot>
+            <tr class="text-center">
+                <th>Word</th>
+                <th>Word Type</th>
+                <th>English</th>
+                <th>Paite</th>
+                
+            </tr>
+        </tfoot>
+    <!--/table-->
+    </table>
+	<script type="text/javascript" class="init">
+	$(document).ready(function() {
+    $('#example').DataTable( {
+        /*"ajax": '../ajax/data/arrays.txt' */
+		//"ajax": 'ajax/data/arrays.txt'
+		"ajax": 'thumalbu-array.txt',
+	    "order":[1,'asc'],
+	    //"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+	    "lengthMenu": [[10], [10]]
+    } );
+		 
+} );
+</script>
+  
+  <script src='https://code.jquery.com/jquery-3.5.1.js'></script>
+<script src='https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js'>
+  <script src='https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap.min.js'>
+     <script src='###https://gyrocode.github.io/jquery-datatables-alphabetSearch/1.2.7/js/dataTables.alphabetSearch.min.js'>
+    
+  
+  </script><script  src="./script.js"></script>
+<script>
+/*	
+$(document).ready(function () {
+  $("#my-table > table").DataTable({
+     "columnDefs": [
+        { "targets": [1,2,3], "searchable": false }
+    ],
+    dom: 'Alfrtip',
+      alphabetSearch: {
+         column: 0
+      }      
+  }); */
+  </script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+});
