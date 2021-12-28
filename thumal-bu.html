@@ -57,7 +57,8 @@
 		"ajax": 'thumalbu-array.txt',
 	    "order":[1,'asc'],
 	    //"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-	    "lengthMenu": [[10], [10]]
+	    "lengthMenu": [[10], [10]],
+	    oTable.fnFilter( "^"+TERM+"$", COLUMN , true); //Term, Column #, RegExp Filter
     } );
 		 
 } );
@@ -88,4 +89,4 @@ $(document).ready(function () {
 </body>
 </html>
 
-});
+
