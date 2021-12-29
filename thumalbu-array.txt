@@ -1335,7 +1335,7 @@
     [
          "bawngkangtalai",
          "n",
-         "bullickkart",
+         "bullockkart",
          "Bawngkangtalai in buh pua uhi"
     ],
     [
