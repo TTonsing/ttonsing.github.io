@@ -5307,8 +5307,8 @@
     [
          "guh",
          " ",
-         "bone",
-         " "
+         "something which is durable, sturdy, strong, hard",
+         "Van guhpi khat leikhia na hi ve vua. "
     ],
     [
          "guhat",
@@ -5356,19 +5356,19 @@
          "guih",
          " ",
          "suddenly",
-         " "
+         "Chi guih in ah "
     ],
     [
          "guipuang",
          "grass",
          "a runner",
-         " "
+         "Guipuang - thankiknu sugui leng kichi hi. "
     ],
     [
          "guizop",
-         " ",
+         "n",
          "link",
-         " "
+         " Hiai mymomlen na lut nopleh hiai guizop (link) na meksak in"
     ],
     [
          "guk",
