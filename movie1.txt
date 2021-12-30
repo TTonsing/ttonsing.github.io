@@ -308,6 +308,6 @@
       "Not rated",
       "No review",
       "<p><a href=\"https://www.youtube.com/watch?v=CRHx5DtKIdY\" target=\"_blank\" rel=\"noopener\">Mong neilo Itna</a></p>"
-   ],
+   ]
    ]
 }
