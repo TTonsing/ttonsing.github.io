@@ -16,6 +16,8 @@ author: ttonsing
 navbar-links:
   
   About Me: "aboutme"
+  Some Trials
+    - Chartjs: "chart-js"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
