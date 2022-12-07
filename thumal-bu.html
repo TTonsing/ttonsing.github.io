@@ -23,10 +23,12 @@
        <!--table id="example" class="display compact" style="width:100%"-->
         <thead>
             <tr class="text-center">
+		    <th>Sl.No.</th>
                 <th>Thumal (Word)</th>
                 <th>Word Type</th>
                 <th>English</th>
                 <th>Description</th>
+		    <th>synnonym</th>
             </tr>
         </thead>
 	<tbody>
@@ -40,10 +42,12 @@
 	</tbody>
         <tfoot>
             <tr class="text-center">
+		    <th>Sl.No</th>
                 <th>Word</th>
                 <th>Word Type</th>
                 <th>English</th>
                 <th>Paite</th>
+		    <th>Synonyms</th>
                 
             </tr>
         </tfoot>
@@ -60,7 +64,8 @@ var table = $('#example').DataTable(
 	{
         /*"ajax": '../ajax/data/arrays.txt' */
 		//"ajax": 'ajax/data/arrays.txt'
-		"ajax": 'thumalbu-array.txt',
+		//"ajax": 'thumalbu-array.txt',
+		"ajax": 'wp498_thumal_bu20221130 (1).txt',
 	    "order":[0,'asc'], 
 	    //"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 	    "lengthMenu": [[10], [10]],
