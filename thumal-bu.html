@@ -70,10 +70,18 @@ var table = $('#example').DataTable(
 		//"ajax": 'ajax/data/arrays.txt'
 		//"ajax": 'thumalbu-array.txt',
 		"ajax": 'wp498_thumal_bu20221130 (1).txt',
-	    "order":[1,'asc'],
+	    /* "order":[1,'asc'],
 		"columnDefs": [
     { "width": "2%", "targets": 0 }
-  ], 
+  ], */
+		 "columns": [
+    { "width": "2%" },
+    null,
+    { "width": "3%" },
+    null,
+    null,
+	{ "width": "2%" }
+  ],
 	    //"lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
 	    "lengthMenu": [[10], [10]],
 	    /* oTable.fnFilter( "^"+TERM+"$", COLUMN , true); //Term, Column #, RegExp Filter */
